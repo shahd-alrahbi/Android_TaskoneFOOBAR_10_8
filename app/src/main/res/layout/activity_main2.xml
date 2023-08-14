@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@color/design_default_color_secondary_variant">
+
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Email"
+        android:backgroundTint="@android:color/background_light"
+        android:textColor="@color/material_dynamic_primary99"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="Password"
+        android:backgroundTint="@android:color/background_light"
+        android:textColor="@color/material_dynamic_primary99"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ed1" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:text="SIGN IN"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/btn_color"
+        android:width="2dp"
+        android:textColor="@color/material_dynamic_primary99"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ed2" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FORGOT PASSWORD?"
+        android:textSize="16dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/material_dynamic_primary99"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JOIN NOW"
+        android:textSize="16dp"
+        android:textColor="@color/material_dynamic_primary99"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
